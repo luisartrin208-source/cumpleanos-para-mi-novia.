@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz cumpleaños, mi amor ❤️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff0f5;
+    color: #762747;
+    text-align: center;
+}
+
+header {
+    min-height: 100vh;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffc0d5, #fff0f5, #ffdae7);
+}
+
+h1 {
+    font-size: clamp(40px, 8vw, 70px);
+    margin: 15px 0;
+    color: #c2185b;
+}
+
+h2 {
+    color: #c2185b;
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+button {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background: #e91e63;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 12px;
+}
+
+button:hover {
+    background: #ad1457;
+    transform: scale(1.04);
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.carta {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px #d81b6030;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.galeria img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #0002;
+    transition: 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.03);
+}
+
+.recuerdo {
+    background: #ffe0eb;
+}
+
+.sorpresa {
+    display: none;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+footer {
+    padding: 30px;
+    background: #c2185b;
+    color: white;
+}
+
+.corazon {
+    position: fixed;
+    bottom: -30px;
+    animation: subir 4s linear forwards;
+    pointer-events: none;
+    z-index: 10;
+}
+
+@keyframes subir {
+    to {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <p>💗 13 DE OCTUBRE 💗</p>
+
+    <h1>Feliz cumpleaños,<br>mi niña bonita</h1>
+
+    <p>
+        Hoy es el día de una de las personas
+        más especiales de mi vida.
+    </p>
+
+    <p>Hice algo solamente para ti, mi amor. ❤️</p>
+
+    <button onclick="irCarta()">
+        Abre tu regalito 💌
+    </button>
+</header>
+
+<section id="carta">
+    <h2>Una carta para ti 💌</h2>
+
+    <div class="carta">
+        <p>Mi amor, feliz cumpleaños. ❤️</p>
+
+        <p>
+            Hoy quiero recordarte lo mucho que te quiero
+            y lo feliz que me hace tenerte en mi vida.
+            Gracias por cada beso, cada abrazo, cada risa
+            y cada momento que compartimos.
+        </p>
+
+        <p>
+            Tal vez no siempre encuentre las palabras
+            correctas para explicarte lo que siento,
+            pero quiero que sepas que eres alguien
+            demasiado especial para mí.
+        </p>
+
+        <p>
+            Quiero seguir creando recuerdos contigo,
+            apoyarte en tus sueños, verte feliz y
+            acompañarte en todos los momentos bonitos
+            que todavía nos faltan.
+        </p>
+
+        <p>
+            Deseo que este nuevo año de tu vida esté
+            lleno de felicidad, amor, salud y muchas
+            cosas bonitas. Nunca olvides lo increíble
+            que eres y todo lo que vales mi amor.
+        </p>
+
+        <p>
+            Gracias por ser tú, por tus ocurrencias,
+            por tus abrazos y por formar parte de mi vida.
+            Mi regalo favorito es poder compartir
+            tantos momentos contigo.
+        </p>
+
+        <h2>Te quiero muchísimo, mi niña. 🥹❤️</h2>
+    </div>
+</section>
+
+<section class="recuerdo">
+    <h2>Nuestros recuerdos 📸</h2>
+
+    <p>
+        Cada foto guarda un momento que quiero
+        conservar contigo por mucho tiempo.
+    </p>
+
+    <div class="galeria">
+        <img src="fotos/foto1.jpeg" alt="Nuestro recuerdo 1">
+        <img src="fotos/foto2.jpeg" alt="Nuestro recuerdo 2">
+        <img src="fotos/foto3.jpeg" alt="Nuestro recuerdo 3">
+        <img src="fotos/foto4.jpeg" alt="Nuestro recuerdo 4">
+        <img src="fotos/foto5.jpeg" alt="Nuestro recuerdo 5">
+        <img src="fotos/foto6.jpeg" alt="Nuestro recuerdo 6">
+        <img src="fotos/foto7.png" alt="Nuestro recuerdo 7">
+        <img src="fotos/foto8.jpeg" alt="Nuestro recuerdo 8">
+    </div>
+</section>
+
+<section>
+    <h2>¿Sabes por qué eres especial? 💗</h2>
+
+    <div class="carta">
+        <p>🌷 Porque me encanta tu forma de ser.</p>
+        <p>😊 Porque tu sonrisa hace bonitos mis días.</p>
+        <p>🫶 Porque amo nuestros momentos juntos.</p>
+        <p>💋 Porque hasta nuestras locuras son recuerdos.</p>
+        <p>✨ Porque quiero seguir viviendo cosas bonitas contigo.</p>
+        <p>❤️ Porque eres tú y eso es muy especial para mí.</p>
+    </div>
+</section>
+
+<section class="recuerdo">
+    <h2>Tengo algo más para ti... 💝</h2>
+
+    <p>Hay un último mensajito que quiero que leas.</p>
+
+    <button onclick="mostrarSorpresa()">
+        Abrir sorpresa ❤️
+    </button>
+
+    <div class="sorpresa" id="sorpresa">
+        Si pudieras verte por un momento con mis ojos,
+        entenderías lo increíble que eres para mí.
+        <br><br>
+        Deseo que la vida te regale muchas razones
+        para sonreír y que nunca te falte amor.
+        <br><br>
+        Feliz cumpleaños, mi amor.
+        Gracias por existir y por compartir
+        tu tiempo conmigo. 💗
+        <br><br>
+        <strong>Te quiero muchísimo. ❤️🥹</strong>
+    </div>
+</section>
+
+<footer>
+    Hecho con amor para mi persona favorita. 💗
+    <br>
+    Feliz cumpleaños, mi niña bonita. 🎂
+</footer>
+
+<script>
+function irCarta() {
+    document.getElementById("carta").scrollIntoView({
+        behavior: "smooth"
+    });
+
+    lanzarCorazones();
+}
+
+function mostrarSorpresa() {
+    document.getElementById("sorpresa").style.display = "block";
+    lanzarCorazones();
+}
+
+function lanzarCorazones() {
+    for (let i = 0; i < 30; i++) {
+        const corazon = document.createElement("div");
+
+        corazon.className = "corazon";
+        corazon.textContent = ["❤️", "💗", "💕", "💖"][
+            Math.floor(Math.random() * 4)
+        ];
+
+        corazon.style.left = Math.random() * 100 + "vw";
+        corazon.style.fontSize = (20 + Math.random() * 25) + "px";
+        corazon.style.animationDuration = (3 + Math.random() * 3) + "s";
+
+        document.body.appendChild(corazon);
+
+        setTimeout(() => {
+            corazon.remove();
+        }, 6000);
+    }
+}
+</script>
+
+</body>
+</html>
